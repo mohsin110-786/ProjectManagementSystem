@@ -1,0 +1,176 @@
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+h1{
+  margin : 0 0 30px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.section-container{
+  display: flex;
+  gap: 25px;
+  align-items: stretch;
+}
+
+body{
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #1f2937;  
+}
+
+.user-section {
+  flex: 1;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 200;
+  color: #111827;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 12px;
+}
+.user-card{
+  padding: 18px;
+  margin-bottom: 15px;
+  border: 1px solid #e5e7eb ;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.user-name{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0  6px  0;
+}
+
+.user-email{
+  font-size: 14px;
+  color: #6b7280;
+    margin: 0 0  15px  0;
+}
+
+
+.update-btn,
+.submit-btn,
+.delete-btn{
+  cursor: pointer;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+.cancel-btn{
+background-color: #6b7280;
+color: white;
+padding: 8px 14px;
+border: none;
+border-radius: 6px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.update-btn{
+  background-color: #2563eb;
+  color: white;
+}
+.submit-btn{
+background-color: #16a34a;
+color: white;
+}
+
+.delete-btn{
+  background-color: #dc2626;
+  color: white;
+}
+
+.update-btn:hover{
+  background-color: #1d4ed8;
+}
+
+.submit-btn:hover {
+  background-color: #2c884e;
+}
+
+.delete-btn:hover{
+  background-color: #b91c1c;
+}
+
+.user-card input{
+  margin-right: 18px;
+  margin-top: 12px;
+  width: auto;
+}
+
+.user-card input:focus{
+  outline: none;
+  border-color: #2563eb;
+}
+
+input{
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.create-btn{
+  background-color: #2563eb;
+  color: white;
+  padding:  10px 18px ;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.create-btn:hover{
+  background-color: #1d4ed8 ;
+}
+
+.Create-user-section input:focus{
+  outline: none;
+  border-color: #2563eb;
+}
+
+.Create-user-section h2{
+  margin-bottom: 25px;
+}
+
+.Create-user-section input{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+.Create-user-section {
+  flex: 1;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.edit-controls{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
